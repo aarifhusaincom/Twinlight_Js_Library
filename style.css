@@ -64,4 +64,31 @@ body {
     height: 10rem;
     left: 10.25rem;
   }
+
+.flex{
+    position: relative;
+    display: flex;
+    min-height:100vh;
+    min-width: 100vw;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+
+.linkClass{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-width: 30px;
+    max-width: fit-content;
+    height: 30px;
+    background-color: black;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.linkClass a{
+    text-decoration: none;
+    color: #ffffff;
+}
   
