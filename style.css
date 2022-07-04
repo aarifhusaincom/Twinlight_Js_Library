@@ -3,6 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(109.04deg, #ECF4B5 1.23%, #EB478C 119.89%);
   }
   
   .git{
