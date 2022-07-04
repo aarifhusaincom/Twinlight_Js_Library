@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .git{
+    position: relative;
+    width: min-content;
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: 1fr 1fr;
+    transform: rotate(-45deg);
+  }
+  .git_square{
+    width: 6rem;
+    height: 6rem;
+    padding: 1rem;
+    display: flex;
+  }
+  .git_square::after{
+    content: '';
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+  .git_square:nth-child(1)::after{
+    display: none;
+  }
+  .git_square:nth-child(1){
+    background-color: #80B3FF;
+    border-radius: 1rem 0;
+  }
+  .git_square:nth-child(2){
+    background-color: #d10000;
+    border-radius: 0 1rem;
+    align-items: flex-end;
+  }
+  .git_square:nth-child(3){
+    background-color: #f8c80a;
+    border-radius: 0 1rem;
+    justify-content: flex-end;
+  }
+  .git_square:nth-child(4){
+    background-color: #5eea00;
+    border-radius: 1rem 0;
+  }
+  .git_line{
+    position: absolute;
+    width: 1rem;
+    background-color: #ffffff;
+  }
+  .git_line.-center{
+    height: 6rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .git_line.-right{
+    height: 10rem;
+    left: 10.25rem;
+  }
+  
